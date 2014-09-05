@@ -683,6 +683,7 @@
                 notifyChange(oldDate, e.type);
                 notifyError(newDate);
                 picker.unset = true;
+                input.val("");  // if input is erased, not sure if necessary in this version, putting this here just in case
             }
         },
 
